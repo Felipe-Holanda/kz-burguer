@@ -1,0 +1,26 @@
+header form input{
+    padding: 1.5em 2em;
+    width: 75%;
+    border-radius: .2em;
+    border: none;
+    outline: 1px solid var(--grey-20)
+}
+
+header form input:focus{
+    outline: 1px solid black;
+}
+
+header form button{
+    padding: 1em;
+    border-radius: .5em;
+    border: none;
+    color: white;
+    background-color: var(--color-primary);
+    cursor: pointer;
+    transform: translate(-7em, .5em);
+    position: fixed;
+}
+
+header form button:hover{
+    background-color: var(--color-primary-50);
+}

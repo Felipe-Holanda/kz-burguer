@@ -1,0 +1,8 @@
+header div h1{
+    color: var(--grey-100);
+}
+
+header div h1 span{
+    color: var(--color-secondary);
+    font-size: 18px;
+}
